@@ -1,0 +1,60 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{document_style}
+\usepackage{court_document_integration}
+
+% Enable form fields
+\usepackage{hyperref}
+\hypersetup{
+  pdftitle={Court Document},
+  pdfauthor={Legal Document System},
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,
+  urlcolor=cyan,
+}
+
+\begin{document}
+
+\thispagestyle{firstpage}
+
+% Case Information Section
+\begin{caseinfo}
+\end{caseinfo}
+
+\vspace{1em}
+
+% Party Information
+\begin{partyinfo}{Plaintiff}
+\end{partyinfo}
+
+\vspace{1em}
+
+\begin{partyinfo}{Defendant}
+\end{partyinfo}
+
+\vspace{2em}
+
+% Main Document Content
+\begin{courtdocument}{DECLARATION}
+I, \courtformfield{declarantName}{Enter your full name}\required, declare as follows:
+
+\begin{enumerate}
+    \item I am the \courtformfield{relationship}{Enter your role} in this action.
+    
+    \item I have personal knowledge of the facts stated herein and could testify competently to them if called as a witness.
+    
+    \item \courtformfield{statement1}{Enter your statement here}
+    
+    \item \courtformfield{statement2}{Continue your statement here}
+\end{enumerate}
+
+\end{courtdocument}
+
+\vspace{2em}
+
+% Verification Section
+\begin{verification}
+\end{verification}
+
+\end{document}
