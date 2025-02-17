@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="cost_overview" name="Monthly Cost Breakdown">
+        <mxGraphModel dx="543" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" value="Monthly Cost Analysis (2025-2026)" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="20" width="600" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1" value="Phase 1: Feb-Apr 2025&#10;(Credits Active)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="100" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase1_costs" value="GCP: $5.52/mo&#10;DigitalOcean: $0 (Credits)&#10;MongoDB: Free Tier&#10;Netlify: Free Tier&#10;Domain: $12.98/year&#10;&#10;Total: $5.52/month" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="phase1" vertex="1">
+                    <mxGeometry y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2" value="Phase 2: May 2025-Jan 2026&#10;(Standard Operations)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="100" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase2_costs" value="GCP: $5.52/mo&#10;DigitalOcean: $12.20/mo&#10;MongoDB: Free Tier&#10;Netlify: Free Tier&#10;Domain: $12.98/year&#10;&#10;Total: $17.72/month" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="phase2" vertex="1">
+                    <mxGeometry y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3" value="Phase 3: Feb 2026&#10;(Domain Renewal)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="100" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="phase3_costs" value="GCP: $5.52/mo&#10;DigitalOcean: $12.20/mo&#10;MongoDB: Free Tier&#10;Netlify: Free Tier&#10;Domain: $12.98 (renewal)&#10;&#10;Total: $30.70" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="phase3" vertex="1">
+                    <mxGeometry y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="upgrades" value="Future Upgrades&#10;(As Needed)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="100" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="upgrade_costs" value="MongoDB M2: +$9/mo&#10;Netlify Pro: +$19/mo&#10;GCP Growth: +$10-15/mo&#10;&#10;Potential Total:&#10;$55-60/month" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="upgrades" vertex="1">
+                    <mxGeometry y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp_breakdown" value="GCP Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="300" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="gcp_costs" value="Storage: $0.50/mo&#10;Cloud Functions: $0.02/mo&#10;Cloud Run: $5.00/mo&#10;&#10;Total: $5.52/month" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="gcp_breakdown" vertex="1">
+                    <mxGeometry y="30" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="do_breakdown" value="DigitalOcean Services" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="300" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="do_costs" value="Basic Droplet: $6.00/mo&#10;Backups: $1.20/mo&#10;Spaces Storage: $5.00/mo&#10;&#10;Total: $12.20/month" style="text;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="do_breakdown" vertex="1">
+                    <mxGeometry y="30" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="payment_schedule" value="Payment Schedule" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="300" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="payment_dates" value="GCP: 1st of each month&#10;DigitalOcean: 16th of month&#10;Domain: February 16 (yearly)&#10;MongoDB: N/A (Free)&#10;Netlify: N/A (Free)" style="text;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="payment_schedule" vertex="1">
+                    <mxGeometry y="30" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="alerts" value="Billing Alerts" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="300" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="alert_thresholds" value="GCP: Alert at $10/month&#10;DigitalOcean: Alert at $15/month&#10;MongoDB: Alert at 400MB&#10;Netlify: Alert at 90GB/month" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="alerts" vertex="1">
+                    <mxGeometry y="30" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="timeline" value="" style="shape=timeline;strokeWidth=4;strokeColor=#314354;fillColor=#647687;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="460" width="920" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="feb2025" value="Feb 2025&#10;$5.52/mo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="540" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="may2025" value="May 2025&#10;$17.72/mo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="540" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="feb2026" value="Feb 2026&#10;$30.70" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="540" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

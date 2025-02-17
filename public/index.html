@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Platform API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fashion Platform API Test</h1>
+    
+    <div class="section">
+        <h2>Fashion Items</h2>
+        <button onclick="fetchData('fashion')">Load Fashion Items</button>
+        <pre id="fashion-result">Results will appear here...</pre>
+    </div>
+
+    <div class="section">
+        <h2>Videos</h2>
+        <button onclick="fetchData('videos')">Load Videos</button>
+        <pre id="videos-result">Results will appear here...</pre>
+    </div>
+
+    <div class="section">
+        <h2>Scholarships</h2>
+        <button onclick="fetchData('scholarships')">Load Scholarships</button>
+        <pre id="scholarships-result">Results will appear here...</pre>
+    </div>
+
+    <script>
+        const API_BASE_URL = '/.netlify/functions/app/api';
+
+        async function fetchData(endpoint) {
+            const resultElement = document.getElementById(`${endpoint}-result`);
+            resultElement.textContent = 'Loading...';
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/${endpoint}`);
+                const data = await response.json();
+                resultElement.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultElement.textContent = `Error: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

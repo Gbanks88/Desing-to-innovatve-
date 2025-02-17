@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "john-allens-fashion",
+  "private_key_id": "4c25cd1d31793eef43b6ccd38d0b5fe4ca10e60f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD0hCranOtNwRd6\nv+YHP0kpqcLALmEKtnEd0ZpV3/yuAgKiVnHxDrPrZkABRtl3eTWlW841768+wWrZ\nPMzr9qWIupy8kvjGfMnTwI03+PBSPvFXk0R3kguEDyAqr8mKMxABwhz/v4KiYJb8\nPGpEKYkmD0HavQnHNTBL2GjRxexmvNHfUmeHMlSmpCofZsr9qZ66qwiPOSSrZc32\nfxkG7GoQCQiaJjTFTofxROcA9ZcWR7kkI9ewwfX0FEQt5T4PbGxNIgaFDWIZKDQI\n2qKaMYeq3RcvyZLO2I0JQWn0AWBfg7K3AbYkZP0lJg7x2OTBr+AlEavlsDUfk8JF\nI+kidsXfAgMBAAECggEAEevLRZvmqxuR4E9G9BUGrw+1fxG8ebqGw+FkPGhe7qn7\nDhw5MapwNA/vH6jVBiqoweaJUJlb8MTgU0JfipPYl2gwq1Q3o49Ag6KYjGz/FX1u\nLDWro6UymYqPmFFV+35j7Ue63wu8RAZsSoRrDXU14MeRfg9eM27fNqU1LtrLdCQS\nA3y5jhIdpSpLNGDu4OT8qjIWOWFhJJx4wXbscukqJYpci1kcxxj5Tf5+Tc8T09RU\noEUfEalHoIqDbfaPtsO4BL14I1eXj1lc6fCwZVxlJEqwdybGsWbA1YgrjU+fbMv+\nBjBDEJ6dZJb1jOyC0qFWRwEerH3DMNg+3vuFSD+dIQKBgQD77F+yD/QWJLM/cJ7P\nLXltrt72CiJY2+ygRVgCQ7u16Poze3VNwaZBY0h/a/OBnl1Kbf41v3wWTE0X98g/\nHHyyShEVUPUuNyNJzzh5eAhkIvlNX7BtTofjFnMv1iWygRqaveHTxFH/yKLNsN1p\nnHJKfIByIbRO73sFdr4oPJQ4qQKBgQD4eRvef0FQoZEbE1OEeWS6zq30j2oEYEhA\nK+S4ysdnpwxyiYPgyQJTMAR9YcUh2xwLei8wqfGh4HE5nd0qA0Z8oCzt5DMxjwp6\nsf9pTK89t0wH9wJqPnhpDcqCcxrroncn2IcI4RqXtuJvRcaWzHnVBwFFjAj90a+C\nnL1t+zD3RwKBgEzv+J3Z73KfzLpwO6AMRExyHpfHqou2xsJ/ywwOAZLhzx/P8ZhI\nruzDVI3NuzV31wf3Ja7mhxAMR3MtclOL8K1Gn4cCDY8KudU92wKF3RIv+DFgKvKH\nDEsXPSB751Fnymc93G0fROe4L7hf7o7lf6Yt9dBlaLq+urSFejexoJbZAoGBANkV\npp2r/LqfjhFjvzIchT8Y1661peCQ5k76imhQ8grDTgK71naL5/YaG7IXu42qy0PT\nymrv72aImyPForbUCb9UiiyFlZyU5ojv/sBW+TwoassCqh982OKf4/A49KouVYCA\nkunVEdC/PfINukWB/Gd8KUZD5I8tpfOtUWtHbS59AoGAeInfsaYnpjIgCNdCj9RO\n2ysaecW7uw/ZIFC2uMqqN3RBU1lGNRfswhh76Xh26RVQEMQ5fq31gRnX3/T8GmSu\nrpMh/8MNaupcxnrZw/y5eMP1349KaIwMP384iKYgdB26fm00dygwM1kHDhY6qpzV\nrNz2DWPhJMUczZVjpXo9fFI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "730281879817-compute@developer.gserviceaccount.com",
+  "client_id": "108857551552860297437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/730281879817-compute%40developer.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
